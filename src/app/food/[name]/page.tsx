@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { IFood, IMacronutrientData } from "@/types";
 import { useParams, useRouter } from "next/navigation";
 import { Undo2 } from "lucide-react";
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 type FoodParams = {
     name?: string;
 };
